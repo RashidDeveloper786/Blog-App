@@ -47,7 +47,6 @@ public class BlogAppApplication implements CommandLineRunner{
 
 			this.roleRepo.saveAll(roles);
 
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();
