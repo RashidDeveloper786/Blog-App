@@ -21,8 +21,6 @@ public class BlogAppApplication implements CommandLineRunner{
     @Autowired
     private RoleRepo roleRepo;
 
-    
-
     public static void main(String[] args) {
         SpringApplication.run(BlogAppApplication.class, args);
     }
