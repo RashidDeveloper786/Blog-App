@@ -34,7 +34,6 @@ public class BlogAppApplication implements CommandLineRunner{
     public void run(String... args) throws Exception {
  
         try {
-
 			Role role = new Role();
 			role.setId(AppConstants.ADMIN_USER);
 			role.setName("ROLE_ADMIN");
@@ -46,7 +45,6 @@ public class BlogAppApplication implements CommandLineRunner{
 			List<Role> roles = List.of(role, role1);
 
 			this.roleRepo.saveAll(roles);
-
 
 		} catch (Exception e) {
 			e.printStackTrace();

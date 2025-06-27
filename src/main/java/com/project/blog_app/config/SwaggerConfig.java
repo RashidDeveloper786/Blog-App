@@ -34,7 +34,7 @@ public class SwaggerConfig {
                 .version("1.0")
                 .contact(new Contact()
                         .name("Rashid Ansari")
-                        .url("https://rashid-portfolio-786-qgj6scz83-rashiddeveloper786s-projects.vercel.app/")
+                        .url("https://my-profile-two-blush.vercel.app/")
                         .email("rashidalpha786@gmail.com"))
                 .license(new License()
                         .name("Apache 2.0")
